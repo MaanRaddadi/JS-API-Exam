@@ -71,7 +71,7 @@ changeDateBtn.addEventListener("click", changeDate);
 async function changeDate() {
   try {
     const response = await fetch(
-      "http://api.aladhan.com/v1/calendarByCity/2023/11?city=Riyadh&country=Saudi%20Arabia&method=2"
+      "https://api.aladhan.com/v1/calendarByCity/2023/11?city=Riyadh&country=Saudi%20Arabia&method=2"
     );
     const data = await response.json();
 
